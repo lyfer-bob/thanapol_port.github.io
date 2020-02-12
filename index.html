@@ -222,9 +222,9 @@
                         <h2 class="heading sr-only">Basic Information</h2>
                         <div class="content">
                             <ul class="list-unstyled">
-                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Bfangkok, Thailand</li>
+                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Bangkok, Thailand</li>
                                 <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="mailto:thanapol.thongartm@gmail.com">thanapol.thongart@gmail.com</a></li>
-                                <li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="https://github.com/lyfer-bob/thanapol_port.github.io/tree/master/assets/resume">Resume</a></li>         
+                               <li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="https://github.com/lyfer-bob/thanapol_port.github.io/tree/master/assets/resume">Resume</a></li>   
                             </ul>
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
@@ -341,12 +341,24 @@
                 </aside><!--//section-->
 
                 <script>
+                        function playmusic() {
+                        
+                          var audio = document.getElementById("audio");
+                          audio.play();
+                    }
+                </script>
+
+                <!--    // if play music >1
+                        <script>
                         function playmusic(num) {
                         
                           var audio = document.getElementById("audio"+num);
                           audio.play();
-         00               }
-                </script>
+                    }
+                </script>   
+
+                -->
+
                        <!-- play music on clike-->
                 
                 <aside class="list music aside section">
@@ -354,14 +366,17 @@
                         <h2 class="heading">Favourite coding music</h2>
                         <div class="content">
                             <ul class="list-unstyled">
-                                <li><i class="fas fa-headphones"></i> <a href="#" onclick="playmusic(1)" value="PLAY">Lil Nas X - Old Town Road (feat. Billy Ray Cyrus)</a></li>
-                                <audio id="audio1" src="assets/music/lil_nas_x_old_town_road_feat_billy_ray_cyrus_remix_7ysFgElQtjI_360p.mp4"></audio>
+                                <li><i class="fas fa-headphones"></i> <a href="#" onclick="playmusic()" value="PLAY">Lil Nas X - Old Town Road (feat. Billy Ray Cyrus)</a></li>
+                                <audio id="audio" src="assets/music/lil_nas_x_old_town_road_feat_billy_ray_cyrus_remix_7ysFgElQtjI_360p.mp4"></audio>
+                               
+                                <!-- //add music
                                 <li><i class="fas fa-headphones"></i> <a href="#" onclick="playmusic(2)" value="PLAY">The Chainsmokers - Closer ft. Halsey</a></li>
                                 <audio id="audio2" src="assets/music/The Chainsmokers - Closer (Lyrics) ft. Halsey.mp4"></audio>
                                 <li><i class="fas fa-headphones"></i> <a href="#" onclick="playmusic(3)" value="PLAY">Mark Ronson - Uptown Funk ft. Bruno Mars</a></li>
                                 <audio id="audio3" src="assets/music/Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars.mp4"></audio>
                                 <li><i class="fas fa-headphones"></i> <a href="#" onclick="playmusic(4)" value="PLAY">Ed Sheeran - Shape of You</a></li>
                                 <audio id="audio4" src="assets/music/Ed Sheeran - Shape of You [Official Video].mp4"></audio>
+                                 -->
                             </ul>
                         </div><!--//content-->
                     </div><!--//section-inner-->
